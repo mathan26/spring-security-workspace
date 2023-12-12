@@ -11,6 +11,13 @@
     <name>spring-security-workspace Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework</groupId>
